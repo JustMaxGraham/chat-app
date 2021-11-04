@@ -6,7 +6,7 @@ const app = express();
 const httpServer = http.createServer(app);
 const io = new Server(httpServer);
 
-const PORT = 3000;
+const PORT = 8080;
 
 app.listen(PORT, () => {
   console.log(`Listening on ${PORT}`);
